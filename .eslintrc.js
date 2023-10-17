@@ -16,11 +16,16 @@ module.exports = {
     'no-unused-vars': 0,
 
     // TypeScript
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'warn',
     '@typescript-eslint/no-unused-vars': ['error'],
     '@typescript-eslint/camelcase': 0,
     '@typescript-eslint/explicit-module-boundary-types': 0,
     '@typescript-eslint/ban-types': 0,
     '@typescript-eslint/semi': ['error'],
+    'jsx-a11y/label-has-associated-control': ['error', {
+      assert: 'either',
+    }],
   },
   parser: '@typescript-eslint/parser',
   plugins: [

@@ -124,6 +124,7 @@ export const TodoItem: React.FC<Props> = React.memo(({
 
       {isEditing && (
         <input
+          id="edit"
           type="text"
           className="edit"
           placeholder="Empty todo will be deleted"
