@@ -10,7 +10,6 @@ This Todo app is an interactive web application developed using React, TypeScrip
  - LocalStorage
  - Classnames
  - React transition group
- - SCSS
 
 ## How to Use:
 1. Adding Tasks:
